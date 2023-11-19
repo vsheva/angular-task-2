@@ -9,11 +9,23 @@ export class AppComponent {
   oddNumbers: number[] = [];
   evenNumbers: number[] = [];
 
-  onIntervalFired(firedNumber: number) {
-    if (firedNumber % 2 === 0) {
-      this.evenNumbers.push(firedNumber);
-    } else {
-      this.oddNumbers.push(firedNumber);
-    }
-  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+// onIntervalFired(firedNumber: number) {
+//   if (firedNumber % 2 === 0) {
+//     this.evenNumbers.push(firedNumber);
+//   } else {
+//     this.oddNumbers.push(firedNumber);
+//   }
+// }
