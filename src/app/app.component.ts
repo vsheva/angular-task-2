@@ -10,6 +10,10 @@ export class AppComponent {
   evenNumbers: number[] = [];
 
 
+  onIntervalFired(fNumber:number) {
+    console.log(fNumber)
+  }
+
 }
 
 
