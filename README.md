@@ -9,7 +9,7 @@
         - Simply output Odd - NUMBER or Even - NUMBER in the two components
         - Style the element  holding your output text differently in both components
 
-### [Solved task](https://ubiquitous-blini-fdbbb3.netlify.app))
+### [Solution](https://ubiquitous-blini-fdbbb3.netlify.app)
 
 
 # CmpDatabindingStart
