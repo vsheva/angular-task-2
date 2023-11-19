@@ -10,8 +10,12 @@ export class AppComponent {
   evenNumbers: number[] = [];
 
 
-  onIntervalFired(fNumber:number) {
-    console.log(fNumber)
+  onIntervalFired(firedNumber: number) {
+    if (firedNumber %2 ===0) {
+      this.oddNumbers.push(firedNumber);
+    } else {
+      this.evenNumbers.push(firedNumber);
+    }
   }
 
 }
